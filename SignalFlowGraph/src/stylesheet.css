@@ -1,0 +1,31 @@
+node {
+	shape: rounded-box;
+	stroke-mode:plain;
+	stroke-width:1px;
+	size-mode:fit;
+	fill-color:white;
+	text-alignment:center;
+	text-size:15px;
+	stroke-color:black;
+	padding:5px;
+	text-style:bold-italic;
+	
+}
+edge { 	
+	shape: line;
+	size:2;	
+        fill-color: blue;
+	text-size:15px;
+	text-style:bold;
+	arrow-size:15px,7px;
+	text-background-mode:rounded-box;
+	text-background-color:white;
+	text-padding:2px,2px;
+	} 
+node.marked {
+            fill-color: blue;
+            }
+
+node:clicked {
+	fill-color: green;
+}
